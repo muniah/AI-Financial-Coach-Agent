@@ -1,4 +1,4 @@
-AI Financial Coach Agent 💸
+### AI Financial Coach Agent 💸
 
 The AI Financial Coach Agent is a web-based application powered by Google's Agent Development Kit (ADK) and Streamlit, designed to provide personalized financial advice. It analyzes user inputs (income, expenses, debts) to deliver tailored budgeting, savings, and debt reduction strategies through a multi-agent AI system.
 
@@ -41,29 +41,30 @@ The AI Financial Coach Agent is a web-based application powered by Google's Agen
 2. Installation
 
 1. Clone the Repository:
-`git clone `
+`git clone git@github.com:muniah/AI-Financial-Coach-Agent.git`
+
 `cd AI_Financial_Coach_Agent`
 
 
-2. Set Up Environment:Create a .env file in the project root:
+3. Set Up Environment: Create a .env file in the project root:
 `GOOGLE_API_KEY=your_api_key_here`
 
 
-3. Install Dependencies:
+4. Install Dependencies:
 `pip install -r requirements.txt`
 
 
-4. Run the Application:
+5. Run the Application:
 `streamlit run ai_financial_coach_agent.py`
 
 
 
-📄 CSV File Format
+📄 **CSV File Format**
 The application accepts CSV files with the following columns:
 
-Date: YYYY-MM-DD format
-Category: Expense category (e.g., Housing, Food)
-Amount: Numeric transaction amount
+`Date`: YYYY-MM-DD format
+`Category`: Expense category (e.g., Housing, Food)
+`Amount`: Numeric transaction amount
 
 Example:
 Date,Category,Amount
@@ -72,7 +73,8 @@ Date,Category,Amount
 2024-01-03,Transportation,45.00
 
 Download a template CSV from the application's sidebar.
-🛠️ Technologies Used
+
+🛠️ **Technologies Used**
 
 Python: Core programming language
 Streamlit: Web interface framework
@@ -81,12 +83,12 @@ Pandas/Plotly: Data processing and visualization
 Pydantic: Structured data validation
 asyncio: Asynchronous agent execution
 
-🔒 Privacy & Security
+🔒 **Privacy & Security**
 
 All data is processed locally and not stored.
 Secure API communication with Google's services.
 
-📚 Documentation & Support
+📚 **Documentation & Support**
 
 Project Repository
 Report Issues
