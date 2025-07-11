@@ -1,4 +1,4 @@
-### AI Financial Coach Agent 💸
+### AI Financial Coach Agent
 
 The AI Financial Coach Agent is a web-based application powered by Google's Agent Development Kit (ADK) and Streamlit, designed to provide personalized financial advice. It analyzes user inputs (income, expenses, debts) to deliver tailored budgeting, savings, and debt reduction strategies through a multi-agent AI system.
 
@@ -30,7 +30,7 @@ The AI Financial Coach Agent is a web-based application powered by Google's Agen
 
 
 
-🚀 Getting Started
+### Getting Started
 
 1. Prerequisites
 
