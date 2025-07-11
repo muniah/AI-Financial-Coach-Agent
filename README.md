@@ -47,16 +47,17 @@ The AI Financial Coach Agent is a web-based application powered by Google's Agen
   ```
 
 
-- Set Up Environment: Create a .env file in the project root:
-`GOOGLE_API_KEY=your_api_key_here`
+- Set Up Environment:
+    - Create a .env file in the project root and set the `GOOGLE_API_KEY`:
+  ```GOOGLE_API_KEY=your_api_key_here```
 
 
 - Install Dependencies:
-`pip install -r requirements.txt`
+```> pip install -r requirements.txt```
 
 
 5. Run the Application:
-`streamlit run ai_financial_coach_agent.py`
+```> streamlit run ai_financial_coach_agent.py```
 
 
 
