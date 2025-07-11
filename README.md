@@ -41,9 +41,10 @@ The AI Financial Coach Agent is a web-based application powered by Google's Agen
 2. Installation
 
 - Clone the Repository:
-`git clone git@github.com:muniah/AI-Financial-Coach-Agent.git`
-
-`cd AI_Financial_Coach_Agent`
+  ```
+  > git clone git@github.com:muniah/AI-Financial-Coach-Agent.git
+  > cd AI_Financial_Coach_Agent
+  ```
 
 
 - Set Up Environment: Create a .env file in the project root:
