@@ -60,7 +60,7 @@ The AI Financial Coach Agent is a web-based application powered by Google's Agen
   ```
 
 
-5. Run the Application:
+- Run the Application:
 ```
 > streamlit run ai_financial_coach_agent.py
 ```
